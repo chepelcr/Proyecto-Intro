@@ -1,0 +1,12 @@
+//José Pablo Campos Solano
+//Proyecto Introducción a la Informatica
+
+public class PrincipalProyecto
+{
+  public static void main (String arg[])
+  {
+    MenuProyecto menu = new MenuProyecto();
+    menu.menu();
+    
+  }//Fin del metodo principal
+}//Fin de la clase
