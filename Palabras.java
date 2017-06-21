@@ -1,7 +1,5 @@
 //José Pablo Campos Solano
 //Proyecto Programado
-
-import java.util.Scanner;
     
 public class Palabras
 {
@@ -27,8 +25,6 @@ public class Palabras
   
   public String vocYCons()
   {
-    
-    Scanner sc =new Scanner(System.in);
     int contV=0,contC=0;
     
     palabra  = getPalabra();
