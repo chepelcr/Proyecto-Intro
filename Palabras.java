@@ -1,4 +1,4 @@
-//José Pablo Campos Solano
+//JosÃ© Pablo Campos Solano
 //Proyecto Programado
 
 import java.util.Scanner;
@@ -8,9 +8,9 @@ public class Palabras
 
   private String palabra;
   
-  public Palabras()
+  public Palabras(palabra)
   {
-    this.palabra = "";
+    this.palabra = palabra;
     
   }//Fin del constructor con parametros
   
@@ -49,7 +49,7 @@ public class Palabras
           }
         }
       }
-      return "El número de vocales es : " + contV + "\nEl número de consonantes es : " + contC;
+      return "El nÃºmero de vocales es : " + contV + "\nEl nÃºmero de consonantes es : " + contC;
   }//Fin del vocYCons
   
 }//Fin de la clase
