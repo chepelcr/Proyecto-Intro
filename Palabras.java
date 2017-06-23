@@ -57,14 +57,14 @@ public class Palabras
         if((palabra.charAt(i)=='a')||(palabra.charAt(i)=='e')||(palabra.charAt(i)=='i')||(palabra.charAt(i)=='o')||(palabra.charAt(i)=='u'))
         {
           contV++;
-          setVocales();
+          setVocales(contV);
         }
         else 
         {
           if(palabra.charAt(i)!=' ')
           {
           contC++;
-          setConsonantes();
+          setConsonantes(contC);
           }
         }
       }
